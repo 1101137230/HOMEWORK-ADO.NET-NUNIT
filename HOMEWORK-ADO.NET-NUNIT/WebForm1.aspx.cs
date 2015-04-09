@@ -34,18 +34,18 @@ namespace HOMEWORK_ADO.NET_NUNIT
                         dt.Load(dr);
                         dr.Close();
                         resultGridView.DataSource = dt;
-                        resultGridView.DataBind(); 
+                        resultGridView.DataBind();
 
                         //add age column and calculate age
-                 /***      dt.Columns.Add("Age", typeof(System.Int32));
-                        Calculate cal = new Calculate();
-                        foreach (DataRow data in dt.Rows)
-                        {
-                            int age = cal.getAge(Convert.ToDateTime(data["Birthday"]));
-                            data["Age"] = age;
-                        }***/
+                        /***      dt.Columns.Add("Age", typeof(System.Int32));
+                               Calculate cal = new Calculate();
+                               foreach (DataRow data in dt.Rows)
+                               {
+                                   int age = cal.getAge(Convert.ToDateTime(data["Birthday"]));
+                                   data["Age"] = age;
+                               }***/
 
-                        
+
                     }
                 }
             }

@@ -47,7 +47,6 @@
         <br />
         編號:<asp:TextBox ID="deleteIDTextBox" runat="server" ></asp:TextBox>
         <asp:Button ID="deleteButton" runat="server" OnClick="deleteButton_Click" Text="刪除" />
-        
     
     </div>
     </form>
