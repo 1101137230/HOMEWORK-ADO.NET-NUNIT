@@ -10,8 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
-        <asp:TextBox ID="searchBox" runat="server"></asp:TextBox>
+    <asp:TextBox ID="searchBox" runat="server"></asp:TextBox>
         <asp:Button ID="searchButton" runat="server" Text="查詢" OnClick="searchButton_Click" />
         <br />
         <br />
@@ -47,7 +46,6 @@
         <br />
         編號:<asp:TextBox ID="deleteIDTextBox" runat="server" ></asp:TextBox>
         <asp:Button ID="deleteButton" runat="server" OnClick="deleteButton_Click" Text="刪除" />
-    
     </div>
     </form>
 </body>
