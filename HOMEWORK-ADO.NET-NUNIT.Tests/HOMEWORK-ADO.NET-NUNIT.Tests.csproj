@@ -34,6 +34,9 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="nunit.framework">
+      <HintPath>Z:\Google 雲端硬碟\大三下\ASP.NET\2015327\WebApplication1\WebApplication1.Tests\bin\Debug\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
